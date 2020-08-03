@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
         <div className="row mt-5">
 
           <div className="col-md-6">
-            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
               <div className="form-group">
                 <input name="name" type="text" className="form-control" id="name" placeholder="Name" required />
@@ -28,7 +28,6 @@ const Contact: React.FC = () => {
               <div className="form-group">
                 <textarea name="message" className="form-control" id="message" rows={3} placeholder="Message" required></textarea>
               </div>
-              <div data-netlify-recaptcha="true"></div>
               <button type="submit" className="btn btn-dark  btn-block">Send</button>
             </form>
           </div>
