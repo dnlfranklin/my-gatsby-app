@@ -43,6 +43,9 @@ const Header: React.FC<HeaderProps> = ({siteTitle}) => {
           <li className="nav-item">
             <Link className="nav-link" to="/gallery" activeClassName="text-warning">Gallery</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/contact" activeClassName="text-warning">Contact</Link>
+          </li>
         </ul>
       </div>
     </Nav>
